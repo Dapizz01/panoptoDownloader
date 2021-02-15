@@ -8,8 +8,8 @@ Using curl and pup, the script fetches the video link (screen shared and webcam)
 ## How to install
 1. Download this repo
 2. Download and install all dependencies
-3. Put the binary file (panoptoDownloader) in one of the $PATH directories, otherwise just use the bash script (panoptoDownloader.sh)
-4. Make a text file with one link (for UNIVR, it's the lesson link, not the video link) per line, you can put as many links as you want
+3. Put the script file (panoptoDownloader) in one of the $PATH directories
+4. Make a text file with one link (for UNIVR, it's the lesson link) per line, you can put as many links as you want
 5. Use the script
 ## How to use the script
 If the script is in $PATH
@@ -18,6 +18,6 @@ panoptoDownloader path/to/the/text/file where/to/save/videos
 ```
 Otherwise
 ```bash
-./panoptoDownloader.sh path/to/the/text/file where/to/save/videos
+./panoptoDownloader path/to/the/text/file where/to/save/videos
 ```
 Don't put another / after the video directory path
